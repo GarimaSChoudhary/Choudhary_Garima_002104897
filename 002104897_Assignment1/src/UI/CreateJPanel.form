@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="99" green="99" red="0" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="userName" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="healthPlanNo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="userAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="phoneNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="faxNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="useEmail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ssn" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mrn" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="accountNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="licenseNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="vehicleNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="deviceNo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="linkedin" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ipAddress" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="bioLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="uniqueCodeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                                  <Component id="userPhotoLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="nameText" max="32767" attributes="0"/>
+                                  <Component id="addressText" max="32767" attributes="0"/>
+                                  <Component id="phoneNoText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="faxText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="emailText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="ssnText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="mrnText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="healthPlanNoText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="accountNoText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="licenseNoText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="vehicleSerialNoText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="deviceSerialNo" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="linkedinText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="ipAddressText" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="uniqueCodeText" max="32767" attributes="0"/>
+                                  <Component id="bioButton" max="32767" attributes="0"/>
+                                  <Component id="photoButton" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jDateChooser1" min="-2" pref="141" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="saveButton" min="-2" pref="102" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="errEmail" alignment="0" pref="294" max="32767" attributes="0"/>
+                          <Component id="errAccountNo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="errName" alignment="0" min="-2" pref="284" max="-2" attributes="0"/>
+                          <Component id="errPhone" alignment="0" max="32767" attributes="0"/>
+                          <Component id="errFax" alignment="0" max="32767" attributes="0"/>
+                          <Component id="errSSN" alignment="0" max="32767" attributes="0"/>
+                          <Component id="errIp" alignment="0" max="32767" attributes="0"/>
+                          <Component id="bioPath" max="32767" attributes="0"/>
+                          <Component id="photoPath" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                      <Component id="CreateProfile" min="-2" pref="165" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="238" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="CreateProfile" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="userName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errName" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addressText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="userAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="phoneNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="phoneNoText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errPhone" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="faxNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="faxText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errFax" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="useEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="emailText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errEmail" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ssn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ssnText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errSSN" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mrn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="mrnText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="healthPlanNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="healthPlanNoText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="accountNo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="errAccountNo" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="licenseNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="licenseNoText" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="accountNoText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="vehicleNo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="vehicleSerialNoText" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deviceSerialNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="deviceNo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="linkedin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="linkedinText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ipAddressText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ipAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errIp" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bioPath" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="userPhotoLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="photoButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="uniqueCodeLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="uniqueCodeText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="saveButton" min="-2" pref="32" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="photoPath" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="355" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="CreateProfile">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Create User Profile"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="userName">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="userAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="phoneNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="faxNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fax Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="useEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="User Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ssn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Social Security Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mrn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medical Record Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="healthPlanNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Health Plan Benerficiary Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="accountNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bank Account Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="licenseNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="vehicleNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle Serial Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deviceNo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Device Serial Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="linkedin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LinkedIn:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ipAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IP Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bioLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Biometric Identifiers:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="nameTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="phoneNoText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="phoneNoTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ssnText">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ssnTextActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ssnTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="emailText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="emailTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="faxText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="faxTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="mrnText">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mrnTextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="licenseNoText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ipAddressText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ipAddressTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="linkedinText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="deviceSerialNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="accountNoText">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="accountNoTextKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="healthPlanNoText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="vehicleSerialNoText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="userPhotoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="User Photo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="uniqueCodeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Unique Identifiers Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="uniqueCodeText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel37">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Birth:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bioButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upload Biometric Here"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bioButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="photoButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upload Photo Here"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="photoButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="photoPath">
+    </Component>
+    <Component class="javax.swing.JLabel" name="bioPath">
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save Profile"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errPhone">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errEmail">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errFax">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errSSN">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errIp">
+    </Component>
+    <Component class="javax.swing.JLabel" name="errAccountNo">
+    </Component>
+  </SubComponents>
+</Form>
